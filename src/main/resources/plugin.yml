@@ -1,0 +1,13 @@
+name: MunchCraft
+version: 1.0.0
+main: com.munchcraft.MunchCraftPlugin
+api-version: '1.21'
+author: MunchCraft
+commands:
+  munchcraft:
+    description: Give and manage MunchCraft custom foods
+    usage: /munchcraft give <food_id|all> [amount]
+    permission: munchcraft.use
+permissions:
+  munchcraft.use:
+    default: op
